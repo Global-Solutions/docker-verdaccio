@@ -1,0 +1,27 @@
+{
+  "name": "docker-verdaccio",
+  "version": "0.1.0",
+  "description": "dockerized verdaccio",
+  "scripts": {
+    "start": "npm run verdaccio --",
+    "verdaccio": "verdaccio"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Global-Solutions/docker-verdaccio.git"
+  },
+  "keywords": [
+    "docker",
+    "verdaccio",
+    "sinopia"
+  ],
+  "author": "Global-Solutions",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Global-Solutions/docker-verdaccio/issues"
+  },
+  "homepage": "https://github.com/Global-Solutions/docker-verdaccio#readme",
+  "dependencies": {
+    "verdaccio": "2.1.0"
+  }
+}
