@@ -5,8 +5,9 @@ LABEL version="0.1.0"
 WORKDIR "/home/node/verdaccio"
 ADD package.json config.yaml /home/node/verdaccio/
 
-RUN adduser --disabled-password --gecos '' node && \
-    npm install --production && \
+RUN npm install --production && \
+    mkdir storage local_storage && \
+    npm cache -f clean && \
     chown node:node . -R
 
 USER node
