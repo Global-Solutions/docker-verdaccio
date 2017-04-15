@@ -1,6 +1,6 @@
-FROM gsol/node:6.9.1
+FROM node:6.10.2-alpine
 MAINTAINER Global Solutions co., ltd.
-LABEL version="0.1.0"
+LABEL version="2.1.4"
 
 WORKDIR "/home/node/verdaccio"
 ADD package.json config.yaml /home/node/verdaccio/
