@@ -1,6 +1,6 @@
-FROM node:6.10.2-alpine
+FROM node:6.11.0-alpine
 MAINTAINER Global Solutions co., ltd.
-LABEL version="2.1.4"
+LABEL version="2.2.0"
 
 WORKDIR "/home/node/verdaccio"
 ADD package.json config.yaml /home/node/verdaccio/
