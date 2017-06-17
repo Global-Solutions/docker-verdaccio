@@ -1,6 +1,6 @@
 {
   "name": "docker-verdaccio",
-  "version": "2.1.4",
+  "version": "2.2.0",
   "description": "dockerized verdaccio",
   "scripts": {
     "start": "npm run verdaccio --",
@@ -22,6 +22,6 @@
   },
   "homepage": "https://github.com/Global-Solutions/docker-verdaccio#readme",
   "dependencies": {
-    "verdaccio": "2.1.4"
+    "verdaccio": "2.2.0"
   }
 }
